@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}  
+.section-title h3{
+    border-bottom: none;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.hr-style{
+    border:5px dotted #000;
+    border-bottom: none;
+    width: 50px;
+    margin:0 auto;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+/* font-family: 'Roboto', sans-serif; */
+}
+header{
+    background-image: url("img/pexels-pixabay-36762.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+.banner-content h1{
+    font-size: 3.5rem;
+    background-color:rgba(32, 111, 32, 0.5);
+    padding:12px 22px;
+    border-radius: 5px;
+}
+.navbar{
+    padding: 1% 6%;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar-icon{
+    color:white;
+}
+.navbar-brand img{
+    height: 60px;
+    width: auto;
+}
+.nav-link{
+    color:white;
+    margin: 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color:#456354;
+    color: white;
+    transform: scale(1.1);
+}
+/* feathers css start */
+
+#feathers{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.feathers-content{
+    border:1px solid #ff02c0;
+    border-radius: 5px;
+    padding:15px;
+    margin:20px 0px;
+    transition: 0.3s;
+}
+.feathers-content:hover{
+    transform:scale(1.1);
+    box-shadow: 3px 4px 7px #000;
+}
+.icon-style{
+    background-color: #bb0aac;
+    padding:20px;
+    color:white;
+    margin: 6px 0px;
+}
+/* about me css start here */
+#about-me{
+    padding:4% 10%;
+    background: #e8ded2;
+}
+#about-me p{
+   margin:0;
+   font-size: 0.9rem;
+   font-weight: light;
+}
+#about-me a{
+ 
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    color:black
+ }
+.achive-dec span{
+    font-weight: 700;
+}
+/* Tutorial section css start here */
+#tutorial{
+    padding:4% 10%;
+    background-color: #a3d2ca;
+}
+.card{
+    transition: 0.4s;
+    border: 1px solid #ff02c0;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 4px black;
+}
+/* feedback css start here */
+#feedback{
+    padding: 4% 10%;
+    background-color: cadetblue;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+}
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 7px;
+}
+/* contact css start here */
+#contact{
+    background-color: #005a8d;
+    padding:3% 10%;
+}
+
+footer{
+    padding:1% 10%;
+    background: #022e57;
+}
+footer a {
+    color:white;
+    margin:0px 10px;
+    text-decoration: none;
+}
+footer a:hover{
+    color:rgb(128, 104, 104);
+    text-decoration: none;
+    
+}
+@media(max-width:768px){
+    #banner .banner-content h1{
+ font-size: 2.5rem;
+ }
+ .navbar .nav-item .nav-link{
+     background-color: rgb(140, 167, 98);
+ }
+}
+
+
